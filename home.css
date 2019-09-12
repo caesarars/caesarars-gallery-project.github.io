@@ -105,6 +105,22 @@ body{
 }
 
 
+@media screen and (max-height: 400px) {
+	.navigation{
+		height: 18vh;
+	}
+	.wrapper-image1,.wrapper-image2{
+		width: 600px;
+	}
+	#title-album1{
+		top: 8px;
+		left: 10px;
+	}
+	#title-album2{
+		top: 8px;
+		left: 10px;
+	}
+}
 @media screen and (max-width: 762px) {
   .wrapper-image1,.wrapper-image2{
 		width: 500px;
