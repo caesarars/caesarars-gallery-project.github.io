@@ -33,17 +33,32 @@
 	</div>
 	<div class="wrapper-modal">
 		<div class="modal-image">
+<<<<<<< HEAD
+				<span id="close">x</span>
+=======
 			<span id="close">x</span>
+>>>>>>> 4bd93e01e13f300e793797dcf09813ac743e9e92
 		</div>
 	</div>
 
+
+<!--- *************************************************************** -->
+	<!-- SCRIPT UNTUK SOURCE JQUERY -->
 	<script src="jquery.min.js"></script>
+	<!--SCRIPT UNTUK CLICK HANDLER FADEIN FADEOUT MODAL IMAGE -->
 	<script>
 		$(".image1").click(function(){
 			$(".wrapper-modal").fadeIn();
 		})
+		$("#close").click(function(){
+			$(".wrapper-modal").fadeOut();
+		})
 	</script>
+		<!--SCRIPT UNTUK HOVER HANDLER minimize maximize ALBUM IMAGE -->
 	<script>
+	$(document).ready(function(){
+
+		$(".wrapper").fadeIn();
 
 			$(".image1").hover(function(){
 				$(this).animate({
@@ -66,8 +81,12 @@
 					backgroundColor:"#d3d3d3"
 				},100)
 			})
+})
+
 
 	</script>
+<!--- *************************************************************** -->
+
 
 </body>
 </html>
