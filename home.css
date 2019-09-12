@@ -105,7 +105,7 @@ body{
 }
 
 
-@media screen and (max-height: 380px) {
+@media screen and (max-height: 400px) and (max-width:700px){
 	.navigation{
 		height: 18vh;
 	}
