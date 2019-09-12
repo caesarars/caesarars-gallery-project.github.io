@@ -104,9 +104,16 @@ body{
 	
 }
 
-@keyframes imageExpands{
-	from{width: 10%;height:50%;}
-	to{width: 75%;height:80%;}
+
+@media screen and (max-width: 762px) {
+  .wrapper-image1,.wrapper-image2{
+		width: 500px;
+  }
+	.image1{
+		height: 80px;
+		width: 60px;
+		font-size: 12px;
+	}
 }
 
 @keyframes fading{
