@@ -110,7 +110,7 @@ body{
 		height: 18vh;
 	}
 	.wrapper-image1,.wrapper-image2{
-		width: 600px;
+		width: 640px;
 	}
 	#title-album1{
 		top: 8px;
@@ -121,6 +121,7 @@ body{
 		left: 10px;
 	}
 }
+
 @media screen and (max-width: 762px) {
   .wrapper-image1,.wrapper-image2{
 		width: 500px;
