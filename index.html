@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Viewer</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+	<div class="navigation">
+		<h1>G A L L E R Y</h1>
+	</div>
+
+	<div class="wrapper">
+		<div class="wrapper-image1">
+				<h2 id="title-album1">Family</h2>
+				<div class="image1-1 image1" id="first">
+					Album1
+				</div>
+				<div class="image2-1 image1" id="second">Album2</div>
+				<div class="image3-1 image1" id="third">Album3</div>
+				<div class="image4-1 image1" id="fourth">Album4</div>
+				<div class="image1-1 image1" id="fifth">Album5	</div>
+		</div>
+		<div class="wrapper-image2">
+				<h2 id="title-album2">Travelling</h2>
+				<div class="image1-1 image1" id="first">Album1</div>
+				<div class="image2-1 image1" id="second">Album2</div>
+				<div class="image3-1 image1" id="third">Album3</div>
+				<div class="image4-1 image1" id="fourth">Album4</div>
+				<div class="image1-1 image1" id="fifth">Album5</div>
+		</div>
+	</div>
+	<div class="wrapper-modal">
+		<div class="modal-image">
+			
+		</div>
+	</div>
+
+	<script src="jquery.min.js"></script>
+	<script>
+		$(".image1").click(function(){
+			$(".wrapper-modal").fadeIn();
+		})
+	</script>
+	<script>
+
+			$(".image1").hover(function(){
+				$(this).animate({
+					width:"150px",
+					height:"150px"
+				},100)
+			},function(){
+				$(this).animate({
+					width:"120px",
+					height:"120px"
+				},100)
+			});
+
+			$(".wrapper-image1").hover(function(){
+				$(this).animate({
+					backgroundColor:"black"
+				},100)
+			},function(){
+				$(this).animate({
+					backgroundColor:"#d3d3d3"
+				},100)
+			})
+
+	</script>
+
+</body>
+</html>
