@@ -115,6 +115,29 @@ body{
 		font-size: 12px;
 	}
 }
+@media screen and (max-width: 400px) {
+	  .wrapper-image1,.wrapper-image2{
+				width: 220px;
+				height: 640px;
+				flex-direction: column;
+	  }
+		#title-album1{
+			top: 10px;
+			left: 15px;
+		}
+		#title-album2{
+			top: 10px;
+			left: 15px;
+		}
+		.image1{
+			height: 90px;
+			width: 110px;
+			font-size: 12px;
+		}
+		.navigation{
+			width: 100%;
+		}
+	}
 
 @keyframes fading{
 	from{opacity: 0;}
