@@ -104,10 +104,8 @@ body{
 }
 #fifth{
 
-<<<<<<< HEAD
 }
 
-=======
 
 @media screen and (max-height: 400px) and (max-width:700px){
 	.navigation{
@@ -159,8 +157,6 @@ body{
 			width: 100%;
 		}
 	}
->>>>>>> 4bd93e01e13f300e793797dcf09813ac743e9e92
-
 @keyframes fading{
 	from{opacity: 0;}
 	to{opacity: 1;}
@@ -245,7 +241,6 @@ body{
 	left: 0;
 	display: none;
 }
-<<<<<<< HEAD
 .modal-image{
 	background-color: #e8bb4d;;
 	width: 1400px;
@@ -255,22 +250,17 @@ body{
 	border-radius: 10px;
 	position: relative;
 }
-=======
->>>>>>> 4bd93e01e13f300e793797dcf09813ac743e9e92
 .modal-image span{
 	width: 30px;
 	height: 30px;
 	border-radius:50%;
 	text-align: center;
-<<<<<<< HEAD
 		position: absolute;
 		right: 10px;
 		top: 8px;
-=======
 	position: absolute;
 	right: 10px;
 	top: 8px;
->>>>>>> 4bd93e01e13f300e793797dcf09813ac743e9e92
 }
 .modal-image span:hover{
 	cursor:pointer;
@@ -279,7 +269,3 @@ body{
 	font-size: 30px;
 	color: white;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4bd93e01e13f300e793797dcf09813ac743e9e92
